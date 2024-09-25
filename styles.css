@@ -1,6 +1,19 @@
+@font-face {
+    font-family: 'Whatdo';
+      src: url('Whatdo.ttf'); /* custom font file */
+  }
+
 h1 {
     color:darkblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whatdo;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+li {
+    font-family:Arial, Helvetica, sans-serif
 }
 
 a {
