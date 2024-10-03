@@ -8,6 +8,11 @@ h1 {
     font-family: Whatdo;
 }
 
+h1 a {
+    color:darkblue;
+    font-family: Whatdo;
+}
+
 h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
