@@ -79,3 +79,29 @@ body {
     width: 100%;
     text-align: center;
 }
+
+ul {
+    display: inline-block;
+    text-align:left;
+}
+
+ol {
+    display: inline-block;
+    text-align:left;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+  
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #0000005f;
+}
