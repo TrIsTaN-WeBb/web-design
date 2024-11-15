@@ -29,6 +29,39 @@
     margin: auto;
 }
 
+.grid-container {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: auto auto auto auto auto;
+    gap: auto;
+  }
+
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#item2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#item3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+#item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#item5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
 #gradient {
     background-image: linear-gradient(white, blanchedalmond);
 }
