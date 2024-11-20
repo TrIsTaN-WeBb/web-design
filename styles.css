@@ -104,11 +104,19 @@ body {
 
 .container {
     position: relative;
+    padding: 10.7px;
 }
   
 .center {
     position: absolute;
-    top: 40%;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.center2 {
+    position: absolute;
+    top: 0%;
     width: 100%;
     text-align: center;
 }
